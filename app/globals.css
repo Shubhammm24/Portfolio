@@ -54,7 +54,22 @@
   box-shadow: inset 0 0 12px #bf97ff70;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
+/* Custom Dark Theme Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #030014;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a1b54;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #46289a;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox specific utility */
 .scrollbar-hidden {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
