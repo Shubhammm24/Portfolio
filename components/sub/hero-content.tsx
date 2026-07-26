@@ -47,7 +47,7 @@ export const HeroContent = () => {
           className="flex flex-col gap-2 my-2 max-w-[620px]"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            Shubham Ranjan
+            Hey its Shubham Ranjan
           </h2>
           <p className="text-base sm:text-lg text-gray-300 leading-relaxed font-normal">
             I am a Software Engineer and Information Technology undergraduate at IIIT Bhopal, specializing in scalable full-stack development and artificial intelligence. I build high-performance, resilient systems that bridge the gap between complex data and user experience—ranging from clinical-grade predictive AI and Generative AI applications to real-time, low-latency web platforms. As an avid problem solver, hackathon winner, and active competitive programmer, I thrive on tackling ambitious challenges and transforming them into impactful, real-world technology.
