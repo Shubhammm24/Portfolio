@@ -25,7 +25,7 @@ export const Floating3D = () => {
       ref={containerRef}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      className="relative w-full h-[520px] md:h-[650px] flex items-center justify-center overflow-visible select-none"
+      className="relative w-full h-[400px] md:h-[500px] lg:h-[550px] flex items-center justify-center overflow-visible select-none"
       style={{ perspective: "1000px" }}
     >
       {/* Parallax Container tilting with mouse */}
@@ -48,13 +48,13 @@ export const Floating3D = () => {
             repeat: Infinity,
             ease: "easeInOut",
           }}
-          className="absolute w-full h-full max-w-[650px] max-h-[650px] z-10 pointer-events-none flex items-center justify-center"
+          className="absolute w-full h-full max-w-[450px] max-h-[450px] md:max-w-[550px] md:max-h-[550px] z-10 pointer-events-none flex items-center justify-center"
         >
           <Image
             src="/hero-bg.svg"
             alt="Hero Background"
-            width={650}
-            height={650}
+            width={550}
+            height={550}
             className="w-full h-full object-contain drop-shadow-[0_0_40px_rgba(112,66,248,0.25)] scale-110"
             draggable={false}
             priority
