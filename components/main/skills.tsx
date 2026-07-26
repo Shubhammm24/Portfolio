@@ -28,7 +28,7 @@ const SkillCategory = ({
     <h3 className="text-sm font-semibold text-purple-400/80 uppercase tracking-[3px] mb-6 text-center">
       {title}
     </h3>
-    <div className="flex flex-row justify-center flex-wrap gap-10 items-center">
+    <div className="flex flex-row justify-center flex-wrap gap-4 md:gap-8 lg:gap-10 items-center">
       {skills.map((skill, i) => (
         <SkillDataProvider
           key={skill.skill_name}

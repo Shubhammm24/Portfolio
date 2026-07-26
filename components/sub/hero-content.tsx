@@ -15,7 +15,7 @@ export const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-col lg:flex-row items-center justify-between px-6 lg:px-20 mt-28 lg:mt-36 w-full z-[20] gap-10"
+      className="flex flex-col lg:flex-row items-center justify-between px-5 md:px-10 lg:px-20 mt-24 md:mt-28 lg:mt-36 w-full z-[20] gap-10"
     >
       {/* Left Column Text Content */}
       <div className="h-full w-full lg:w-1/2 flex flex-col gap-5 justify-center m-auto text-start">
