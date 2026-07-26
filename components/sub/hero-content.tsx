@@ -42,12 +42,17 @@ export const HeroContent = () => {
           </span>
         </motion.div>
 
-        <motion.p
+        <motion.div
           variants={slideInFromLeft(0.8)}
-          className="text-base sm:text-lg text-gray-300 my-4 max-w-[620px] leading-relaxed font-normal"
+          className="flex flex-col gap-2 my-2 max-w-[620px]"
         >
-          I am a Software Engineer and Information Technology undergraduate at IIIT Bhopal, specializing in scalable full-stack development and artificial intelligence. I build high-performance, resilient systems that bridge the gap between complex data and user experience—ranging from clinical-grade predictive AI and Generative AI applications to real-time, low-latency web platforms. As an avid problem solver, hackathon winner, and active competitive programmer, I thrive on tackling ambitious challenges and transforming them into impactful, real-world technology.
-        </motion.p>
+          <h2 className="text-3xl sm:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            Shubham Ranjan
+          </h2>
+          <p className="text-base sm:text-lg text-gray-300 leading-relaxed font-normal">
+            I am a Software Engineer and Information Technology undergraduate at IIIT Bhopal, specializing in scalable full-stack development and artificial intelligence. I build high-performance, resilient systems that bridge the gap between complex data and user experience—ranging from clinical-grade predictive AI and Generative AI applications to real-time, low-latency web platforms. As an avid problem solver, hackathon winner, and active competitive programmer, I thrive on tackling ambitious challenges and transforming them into impactful, real-world technology.
+          </p>
+        </motion.div>
 
         <motion.div
           variants={slideInFromLeft(1)}
