@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { SkillDataProvider } from "@/components/sub/skill-data-provider";
 import { SkillText } from "@/components/sub/skill-text";
 
@@ -44,6 +45,15 @@ const SkillCategory = ({
 );
 
 export const Skills = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
   return (
     <section
       id="skills"
@@ -51,20 +61,22 @@ export const Skills = () => {
       className="flex flex-col items-center justify-center gap-3 h-full relative overflow-visible py-20"
     >
       {/* Background video - behind everything */}
-      <div className="w-full h-full absolute top-0 left-0 z-[0]">
-        <div className="w-full h-full opacity-30 absolute flex items-center justify-center bg-cover">
-          <video
-            className="w-full h-auto"
-            preload="false"
-            playsInline
-            loop
-            muted
-            autoPlay
-          >
-            <source src="/videos/skills-bg.webm" type="video/webm" />
-          </video>
+      {!isMobile && (
+        <div className="w-full h-full absolute top-0 left-0 z-[0]">
+          <div className="w-full h-full opacity-30 absolute flex items-center justify-center bg-cover">
+            <video
+              className="w-full h-auto"
+              preload="false"
+              playsInline
+              loop
+              muted
+              autoPlay
+            >
+              <source src="/videos/skills-bg.webm" type="video/webm" />
+            </video>
+          </div>
         </div>
-      </div>
+      )}
 
       {/* Content - above video */}
       <div className="relative z-[10]">

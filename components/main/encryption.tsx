@@ -1,11 +1,21 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
 import { slideInFromTop } from "@/lib/motion";
 
 export const Encryption = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
   return (
     <div
       id="experience"
@@ -61,18 +71,20 @@ export const Encryption = () => {
         </div>
       </div>
 
-      <div className="w-full flex items-start justify-center absolute">
-        <video
-          loop
-          muted
-          autoPlay
-          playsInline
-          preload="false"
-          className="w-full h-auto"
-        >
-          <source src="/videos/encryption-bg.webm" type="video/webm" />
-        </video>
-      </div>
+      {!isMobile && (
+        <div className="w-full flex items-start justify-center absolute">
+          <video
+            loop
+            muted
+            autoPlay
+            playsInline
+            preload="false"
+            className="w-full h-auto"
+          >
+            <source src="/videos/encryption-bg.webm" type="video/webm" />
+          </video>
+        </div>
+      )}
     </div>
   );
 };
