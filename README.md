@@ -1,183 +1,117 @@
-<a name="readme-top"></a>
+# 🌌 Shubham Ranjan | Space-Themed Portfolio
 
-# Modern Space Theme Portfolio using Next.js 14 and Three.js
+<div align="center">
 
-![Modern Space Theme Portfolio using Next.js 14 and Three.js](/.github/images/img_main.png "Modern Space Theme Portfolio using Next.js 14 and Three.js")
+  <h1>🌌 Shubham Ranjan</h1>
+  <p><b>Full Stack Developer & AI/ML Engineer</b></p>
+  <p><i>B.Tech in Information Technology @ IIIT Bhopal (2023 - 2027)</i></p>
 
-[![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy "Ask Me Anything!")
-[![GitHub license](https://flat.badgen.net/github/license/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/blob/main/LICENSE "GitHub license")
-[![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/commits/main "Maintenance")
-[![GitHub branches](https://flat.badgen.net/github/branches/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/branches "GitHub branches")
-[![Github commits](https://flat.badgen.net/github/commits/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/commits "Github commits")
-[![GitHub issues](https://flat.badgen.net/github/issues/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/issues "GitHub issues")
-[![GitHub pull requests](https://flat.badgen.net/github/prs/sanidhyy/space-portfolio?icon=github&color=black&scale=1.01)](https://github.com/sanidhyy/space-portfolio/pulls "GitHub pull requests")
-[![Netlify Status](https://api.netlify.com/api/v1/badges/451ed0e0-3541-474e-896a-4987e30a7722/deploy-status)](https://spaceportfolio.netlify.app/ "Netlify Status")
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubham-ranjan-58abba28b/)
+  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shubhammm24)
+  [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Shubhammm24/)
+  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shubham0003nov@gmail.com)
 
-<!-- Table of Contents -->
-<details>
+</div>
 
-<summary>
+---
 
-# :notebook_with_decorative_cover: Table of Contents
+## 🚀 Overview
 
-</summary>
+Welcome to my personal interactive portfolio! Built using **Next.js 14 (App Router)**, **TypeScript**, **Three.js**, **Framer Motion**, and **Tailwind CSS**, this space-themed web experience showcases my technical background, software projects, engineering work, and experience in web development and artificial intelligence.
 
-- [Folder Structure](#bangbang-folder-structure)
-- [Getting Started](#toolbox-getting-started)
-- [Screenshots](#camera-screenshots)
-- [Tech Stack](#gear-tech-stack)
-- [Stats](#wrench-stats)
-- [Contribute](#raised_hands-contribute)
-- [Acknowledgements](#gem-acknowledgements)
-- [Buy Me a Coffee](#coffee-buy-me-a-coffee)
-- [Follow Me](#rocket-follow-me)
-- [Learn More](#books-learn-more)
-- [Deploy on Vercel](#page_with_curl-deploy-on-vercel)
-- [Give A Star](#star-give-a-star)
-- [Star History](#star2-star-history)
-- [Give A Star](#star-give-a-star)
+### ✨ Key Features
 
-</details>
+- 🪐 **Interactive 3D Elements**: Custom Three.js floating wireframe icosahedron and glowing orbital ring that dynamically respond to cursor movements.
+- ⚡ **Magnetic Skill Icons**: Dynamic cursor-following physics and glowing hover effects on all tech stack icons.
+- 🌌 **Cosmic Visual Theme**: Dark space background, canvas particle stars, glassmorphism UI containers, and neon gradients.
+- 💼 **Professional Experience & Timeline**: Color-coded timeline highlighting my backend development experience, leadership roles, and hackathon wins.
+- 🛠️ **Featured Technical Projects**: Detailed cards featuring live project mockups, descriptions, and direct GitHub links for **G One Sync AI**, **TriPi (GenAI & RAG)**, and **GoTo Cab Rental Platform**.
+- 📬 **Interactive Glassmorphism Contact Form**: Animated floating input labels and direct `mailto:` integration.
 
-## :bangbang: Folder Structure
+---
 
-Here is the folder structure of this app.
+## 🛠️ Tech Stack & Skills
 
-<!--- FOLDER_STRUCTURE_START --->
-```bash
-space-portfolio/
-  |- app/
-    |-- apple-icon.png
-    |-- favicon.ico
-    |-- globals.css
-    |-- icon1.png
-    |-- icon2.png
-    |-- layout.tsx
-    |-- page.tsx
-  |- components/
-    |-- main/
-    |-- sub/
-  |- config/
-    |-- index.ts
-  |- constants/
-    |-- index.ts
-  |- lib/
-    |-- motion.ts
-    |-- utils.ts
-  |- public/
-  |- .eslintrc.json
-  |- .gitignore
-  |- eslint.config.mjs
-  |- netlify.toml
-  |- next.config.js
-  |- package-lock.json
-  |- package.json
-  |- postcss.config.js
-  |- tailwind.config.ts
-  |- tsconfig.json
-```
-<!--- FOLDER_STRUCTURE_END --->
+| Category | Technologies & Tools |
+| :--- | :--- |
+| **Languages** | Python, JavaScript (ES6+), TypeScript, C++, C, SQL, HTML5, CSS3 |
+| **Frontend** | React.js, Next.js 14, Redux, Tailwind CSS, Material UI, Framer Motion |
+| **Backend & Cloud** | Node.js, Express.js, FastAPI, RESTful APIs, AWS (S3, EC2), Firebase, JWT |
+| **AI / ML** | PyTorch, XGBoost, LangChain, Scikit-learn, NLTK, Pandas, NumPy |
+| **Databases & DevOps** | MongoDB, PostgreSQL, MySQL, Redis, Docker, Apache Kafka, Git, GitHub Actions |
 
-<br />
+---
 
-## :toolbox: Getting Started
+## 💼 Professional Experience
 
-1. Make sure **Git** and **NodeJS** is installed.
+### **Backend Developer** — *Yaseer Innovative Software Pvt. Ltd*
+- **Scalable Architecture**: Engineered a scalable Node.js and PostgreSQL backend handling 10,000+ records, utilizing Redis caching to reduce database queries by 40% and cut API latency by 200ms.
+- **Real-Time Systems**: Deployed WebSocket architecture powering real-time chat and live notifications for 1,000+ concurrent users.
+- **API Integrations**: Seamlessly integrated mission-critical RESTful APIs including Stripe, SendGrid, and AWS S3 with crypto-signed verification.
+- **AI Automation**: Developed an AI-driven chatbot using LangChain and OpenAI, automating Tier-1 support inquiries and reducing manual ticket resolution times by 35%.
 
-2. Clone this repository to your local computer.
+---
 
-3. Open terminal in root directory. Run `npm install --legacy-peer-deps` or `yarn install --legacy-peer-deps`.
+## 📌 Technical Projects
 
-4. Now app is fully configured 👍 and you can start using this app using `npm run dev` or `yarn dev`.
+### 🏥 1. [G One Sync AI (ICU Deterioration Prediction)](https://github.com/Shubhammm24/G_One_Sync_AI)
+- **Tech Stack**: `PyTorch`, `XGBoost`, `FastAPI`, `Kafka`, `Docker`
+- **Description**: Architected a multi-model ensemble (XGBoost, BiLSTM, Transformer) predicting patient deterioration 12 hours in advance with **0.9579 AUROC** and **98.9% specificity**. Engineered a real-time ingestion pipeline processing 60+ temporal features via FastAPI and Kafka (Redpanda). Features a WebSocket-powered dashboard with live ECG/PPG waveforms and SHAP explainability.
 
-## :camera: Screenshots:
+### ✈️ 2. [TriPi — AI Travel Agent (GenAI & RAG)](https://github.com/Shubhammm24/TriPi)
+- **Tech Stack**: `Python`, `LangChain`, `Google Gemini API`, `Streamlit`
+- **Description**: Developed a generative AI travel planner maintaining conversational state across 25+ turns, resulting in a **45% increase in user retention**. Built a RAG-style prompt system handling 15+ user constraints with 98% itinerary accuracy, optimizing LLM latency by 30%.
 
-![Modern UI/UX](/.github/images/img1.png "Modern UI/UX")
+### 🚕 3. [GoTo Cab Rental Platform](https://github.com/Shubhammm24/GoTo)
+- **Tech Stack**: `React.js`, `Node.js`, `Express`, `MongoDB`, `Socket.io`, `Razorpay`
+- **Description**: Architected real-time ride matching via Socket.io and MongoDB 2dsphere queries, handling 5K+ concurrent WebSockets with `<200ms` assignment latency. Achieved a **98/100 Lighthouse performance score** and implemented secure JWT & MFA auth flows with 99.9% verification rate.
 
-![Showcase your skills](/.github/images/img2.png "Showcase your skills")
+---
 
-![Built with Typescript](/.github/images/img3.png "Built with Typescript")
+## 🏆 Honors & Leadership
 
-![Showcase your projects](/.github/images/img4.png "Showcase your projects")
+- 🏆 **Smart India Hackathon 2024 (Internal Winner)**: Developed an AI-driven disaster management portal for urban safety.
+- 🥈 **Team Lead @ Hack-O-Sprint 2025**: Led a 6-member team to build an Ocean Hazard Detection System, securing **Top 5 out of 70+ teams**.
+- 🎓 **Logistics Coordinator @ IIIT Bhopal Convocation 2025**: Managed end-to-end logistics for 750+ attendees and 12+ external vendors.
 
-## :gear: Tech Stack
+---
 
-[![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Next JS](https://skillicons.dev/icons?i=next "Next JS")](https://nextjs.org/ "Next JS") [![Typescript](https://skillicons.dev/icons?i=ts "Typescript")](https://www.typescriptlang.org/ "Typescript") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS") [![Netlify](https://skillicons.dev/icons?i=netlify "Netlify")](https://netlify.app/ "Netlify") [![Three.js](https://skillicons.dev/icons?i=threejs "Three.js")](https://threejs.org/ "Three.js")
+## ⚙️ Local Development Setup
 
-## :wrench: Stats
+To run this portfolio locally on your machine:
 
-[![Stats for Space Portfolio](/.github/images/stats.svg "Stats for Space Portfolio")](https://pagespeed.web.dev/analysis/https-spaceportfolio-netlify-app/2efbmg117d "Stats for Space Portfolio")
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Shubhammm24/Portfolio.git
+   cd Portfolio
+   ```
 
-## :raised_hands: Contribute
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-You might encounter some bugs while using this app. You are more than welcome to contribute. Just submit changes via pull request and I will review them before merging. Make sure you follow community guidelines.
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
 
-## :gem: Acknowledgements
+4. **Open in Browser**:
+   Navigate to [http://localhost:3000](http://localhost:3000) to view the site.
 
-Useful resources and dependencies that are used in Space Portfolio.
+---
 
-<!--- DEPENDENCIES_START --->
-- [@heroicons/react](https://www.npmjs.com/package/@heroicons/react): ^2.2.0
-- [@react-three/drei](https://www.npmjs.com/package/@react-three/drei): ^10.7.7
-- [@react-three/fiber](https://www.npmjs.com/package/@react-three/fiber): ^9.6.1
-- [@types/node](https://www.npmjs.com/package/@types/node): ^26
-- [@types/react](https://www.npmjs.com/package/@types/react): 19.2.17
-- [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): 19.2.3
-- [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.5.4
-- [clsx](https://www.npmjs.com/package/clsx): ^2.1.1
-- [eslint](https://www.npmjs.com/package/eslint): ^10.7.0
-- [eslint-config-next](https://www.npmjs.com/package/eslint-config-next): 16.2.11
-- [framer-motion](https://www.npmjs.com/package/framer-motion): ^12.42.2
-- [next](https://www.npmjs.com/package/next): 16.2.11
-- [postcss](https://www.npmjs.com/package/postcss): ^8
-- [react](https://www.npmjs.com/package/react): 19.2.8
-- [react-dom](https://www.npmjs.com/package/react-dom): 19.2.8
-- [react-icons](https://www.npmjs.com/package/react-icons): ^5.7.0
-- [react-intersection-observer](https://www.npmjs.com/package/react-intersection-observer): ^10.1.0
-- [tailwind-merge](https://www.npmjs.com/package/tailwind-merge): ^3.6.0
-- [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^3.3.0
-- [three](https://www.npmjs.com/package/three): ^0.185.1
-- [typescript](https://www.npmjs.com/package/typescript): ^6
+## 📬 Contact Me
 
-<!--- DEPENDENCIES_END --->
+Feel free to reach out for software engineering roles, project collaborations, or tech discussions!
 
-## :coffee: Buy Me a Coffee
+- 📧 **Email**: [shubham0003nov@gmail.com](mailto:shubham0003nov@gmail.com)
+- 💼 **LinkedIn**: [shubham-ranjan-58abba28b](https://www.linkedin.com/in/shubham-ranjan-58abba28b/)
+- 🐙 **GitHub**: [@Shubhammm24](https://github.com/Shubhammm24)
+- ⚡ **LeetCode**: [Shubhammm24](https://leetcode.com/u/Shubhammm24/)
 
-[<img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" width="200" />](https://www.buymeacoffee.com/sanidhy "Buy me a Coffee")
+---
 
-## :rocket: Follow Me
-
-[![GitHub followers](https://img.shields.io/github/followers/sanidhyy?style=social&label=Follow&maxAge=2592000)](https://github.com/sanidhyy "Follow Me")
-[![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fx.com%2F_sanidhyy)](https://x.com/intent/tweet?text=Check+out+this+amazing+app:&url=https%3A%2F%2Fgithub.com%2Fsanidhyy%2Fspace-portfolio "Tweet")
-
-## :books: Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## :page_with_curl: Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## :star: Give A Star
-
-You can also give this repository a star to show more people and they can use this repository.
-
-## :star2: Star History
-
-<a href="https://star-history.com/#sanidhyy/space-portfolio&Timeline">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline" />
-</picture>
-</a>
-
-<br />
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<div align="center">
+  <sub>Designed & Developed with ❤️ by <b>Shubham Ranjan</b></sub>
+</div>
