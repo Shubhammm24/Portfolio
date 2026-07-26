@@ -18,7 +18,7 @@ export const HeroContent = () => {
       className="flex flex-col lg:flex-row items-center justify-between px-5 md:px-10 lg:px-20 mt-20 md:mt-24 lg:mt-24 w-full z-[20] gap-6"
     >
       {/* Left Column Text Content */}
-      <div className="h-full w-full lg:w-1/2 flex flex-col gap-3 justify-center m-auto text-start">
+      <div className="h-full w-full lg:w-1/2 flex flex-col gap-3 justify-center m-auto text-start bg-[#030014]/60 lg:bg-transparent backdrop-blur-md lg:backdrop-blur-none p-6 lg:p-0 rounded-2xl lg:rounded-none border border-[#7042f84b] lg:border-none">
         <motion.div
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[12px] border border-[#7042f88b] opacity-[0.9]"
