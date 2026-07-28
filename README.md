@@ -18,7 +18,7 @@ Welcome to my personal portfolio repository! I'm Shubham Ranjan, a Full Stack En
 I am a Software Engineer and Information Technology undergraduate at IIIT Bhopal, specializing in scalable full-stack development and artificial intelligence. I build high-performance, resilient systems that bridge the gap between complex data and user experience—ranging from clinical-grade predictive AI and Generative AI applications to real-time, low-latency web platforms. As an avid problem solver, hackathon winner, and active competitive programmer, I thrive on tackling ambitious challenges and transforming them into impactful, real-world technology.
 
 ## 🔗 Links
-- **Resume**: [View my Resume](https://drive.google.com/file/d/1zWKMxGEVbXMU5CGSWTf3KAqcEbmy1uTx/view?usp=sharing)
+- **Resume**: [View my Resume](https://drive.google.com/file/d/12gRyo8mDfoU1dzrZbFxgZOUnXCcWVITf/view?usp=sharing)
 - **LinkedIn**: [Shubham Ranjan](https://www.linkedin.com/in/shubham-ranjan-58abba28b/)
 
 ---

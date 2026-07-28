@@ -66,7 +66,7 @@ export const HeroContent = () => {
           </a>
           <a
             className="py-3 px-8 text-center text-white font-semibold cursor-pointer rounded-xl border border-[#7042f88b] hover:border-purple-500 hover:shadow-[0_0_25px_rgba(112,66,248,0.3)] transition-all duration-300 flex items-center gap-2 transform hover:-translate-y-0.5"
-            href="https://drive.google.com/file/d/1zWKMxGEVbXMU5CGSWTf3KAqcEbmy1uTx/view?usp=sharing"
+            href="https://drive.google.com/file/d/12gRyo8mDfoU1dzrZbFxgZOUnXCcWVITf/view?usp=sharing"
             target="_blank"
             rel="noreferrer noopener"
           >

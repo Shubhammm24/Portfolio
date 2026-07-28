@@ -336,5 +336,5 @@ export const NAV_LINKS = [
 
 export const LINKS = {
   sourceCode: "https://github.com/Shubhammm24",
-  resume: "https://drive.google.com/file/d/1zWKMxGEVbXMU5CGSWTf3KAqcEbmy1uTx/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/12gRyo8mDfoU1dzrZbFxgZOUnXCcWVITf/view?usp=sharing",
 };

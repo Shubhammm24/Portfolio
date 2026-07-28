@@ -138,7 +138,7 @@ export const Resume = () => {
           className="flex gap-4 mt-2"
         >
           <a
-            href="https://drive.google.com/file/d/1zWKMxGEVbXMU5CGSWTf3KAqcEbmy1uTx/view?usp=sharing"
+            href="https://drive.google.com/file/d/12gRyo8mDfoU1dzrZbFxgZOUnXCcWVITf/view?usp=sharing"
             target="_blank"
             rel="noreferrer noopener"
             className="py-2 px-6 button-primary text-center text-white cursor-pointer rounded-lg hover:shadow-[0_0_25px_rgba(112,66,248,0.4)] transition-all duration-300 flex items-center gap-2"
